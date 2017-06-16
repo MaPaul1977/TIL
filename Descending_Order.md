@@ -20,6 +20,6 @@ This one was relatively simple. For that reason, I decided to see how much I cou
       5) Concantenate the array into a string which will be handled in step 1
       6) Done!
       */
-      return parseInt(n.toString().split('').sort().reverse().join(''), 10);
+      return parseInt(String(n).split('').sort().reverse().join(''), 10);
       
     }
